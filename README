@@ -1,13 +1,12 @@
 4vol, a single-speaker mono audio power quadrupler for JACK
-    
-I only have one working speaker (and a very nice one too!) but driven
-from the headphone output of my laptop it is rather quiet and, of course,
-you only hear one channel. 4vol averages the two channels to mono and
-sends plus this to the left channel and minus this to the right.
-The speaker is connected between the left and right signal leads from
-the headphone output and gets twice the voltage between its terminals
-hence four times the power.
 
-Make sure your headphone output amplifier can handle the double current!
+With one loudspeaker and a stereo output you can get four times the
+audio power (twice what you'd get with a stereo pair) by connecting the
+speaker to the positive terminals of the left and right channels and using
+this plugin in the signal path. It averages the two channels into one mono
+channel and puts plus that on the left channel and minus that on the right
+thereby doubling the voltage to the speaker, wuich quadruples the power.
+
+I hope your sound card can stand the higher current without burning out!
 
     Martin Guy <martinwguy@gmail.com>, November 2016.
